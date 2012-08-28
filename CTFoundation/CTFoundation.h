@@ -8,6 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CTFoundation : NSObject
-
-@end
+#import <CTFoundation/CTMaybe.h>

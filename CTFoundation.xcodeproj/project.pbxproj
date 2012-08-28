@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6ACBE47C15ECA5B200D7A2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBE47B15ECA5B200D7A2CC /* Foundation.framework */; };
-		6ACBE48215ECA5B200D7A2CC /* CTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE48115ECA5B200D7A2CC /* CTFoundation.m */; };
 		6ACBE48A15ECA5B200D7A2CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBE48915ECA5B200D7A2CC /* SenTestingKit.framework */; };
 		6ACBE48C15ECA5B200D7A2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBE48B15ECA5B200D7A2CC /* UIKit.framework */; };
 		6ACBE48D15ECA5B200D7A2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBE47B15ECA5B200D7A2CC /* Foundation.framework */; };
 		6ACBE49015ECA5B200D7A2CC /* libCTFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACBE47815ECA5B200D7A2CC /* libCTFoundation.a */; };
 		6ACBE49615ECA5B200D7A2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBE49415ECA5B200D7A2CC /* InfoPlist.strings */; };
 		6ACBE49915ECA5B200D7A2CC /* CTFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE49815ECA5B200D7A2CC /* CTFoundationTests.m */; };
+		6ACBE4A415ECDC2500D7A2CC /* CTMaybe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACBE4A215ECDC2500D7A2CC /* CTMaybe.h */; };
+		6ACBE4A515ECDC2500D7A2CC /* CTMaybe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE4A315ECDC2500D7A2CC /* CTMaybe.m */; };
+		6ACBE4A615ECDC2500D7A2CC /* CTMaybe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE4A315ECDC2500D7A2CC /* CTMaybe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,17 @@
 /* Begin PBXFileReference section */
 		6ACBE47815ECA5B200D7A2CC /* libCTFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACBE47B15ECA5B200D7A2CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6ACBE47F15ECA5B200D7A2CC /* CTFoundation-Prefix.pch */ = {isa = PBXFileReference; path = "CTFoundation-Prefix.pch"; sourceTree = "<group>"; };
-		6ACBE48015ECA5B200D7A2CC /* CTFoundation.h */ = {isa = PBXFileReference; path = CTFoundation.h; sourceTree = "<group>"; };
-		6ACBE48115ECA5B200D7A2CC /* CTFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFoundation.m; sourceTree = "<group>"; };
+		6ACBE47F15ECA5B200D7A2CC /* CTFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		6ACBE48015ECA5B200D7A2CC /* CTFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFoundation.h; sourceTree = "<group>"; };
 		6ACBE48815ECA5B200D7A2CC /* CTFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACBE48915ECA5B200D7A2CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6ACBE48B15ECA5B200D7A2CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6ACBE49315ECA5B200D7A2CC /* CTFoundationTests-Info.plist */ = {isa = PBXFileReference; path = "CTFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		6ACBE49315ECA5B200D7A2CC /* CTFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		6ACBE49515ECA5B200D7A2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6ACBE49715ECA5B200D7A2CC /* CTFoundationTests.h */ = {isa = PBXFileReference; path = CTFoundationTests.h; sourceTree = "<group>"; };
+		6ACBE49715ECA5B200D7A2CC /* CTFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFoundationTests.h; sourceTree = "<group>"; };
 		6ACBE49815ECA5B200D7A2CC /* CTFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFoundationTests.m; sourceTree = "<group>"; };
+		6ACBE4A215ECDC2500D7A2CC /* CTMaybe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMaybe.h; sourceTree = "<group>"; };
+		6ACBE4A315ECDC2500D7A2CC /* CTMaybe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMaybe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				6ACBE48015ECA5B200D7A2CC /* CTFoundation.h */,
-				6ACBE48115ECA5B200D7A2CC /* CTFoundation.m */,
+				6ACBE4A215ECDC2500D7A2CC /* CTMaybe.h */,
+				6ACBE4A315ECDC2500D7A2CC /* CTMaybe.m */,
 				6ACBE47E15ECA5B200D7A2CC /* Supporting Files */,
 			);
 			path = CTFoundation;
@@ -138,6 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACBE4A415ECDC2500D7A2CC /* CTMaybe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ACBE48215ECA5B200D7A2CC /* CTFoundation.m in Sources */,
+				6ACBE4A515ECDC2500D7A2CC /* CTMaybe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ACBE49915ECA5B200D7A2CC /* CTFoundationTests.m in Sources */,
+				6ACBE4A615ECDC2500D7A2CC /* CTMaybe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
